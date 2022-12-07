@@ -2,9 +2,9 @@
 .header-section{
     position: absolute;
     width: 100%;
-    background-color: transparent;
-    padding: 20px 0;
+    padding: 25px 0;
     z-index: 99;
+    // border-bottom: 1px solid rgba(255, 255, 255, 0.247);
     .container{
         padding: 0;
     }
@@ -24,10 +24,17 @@
     color: #fff;
     font-size: 18px;
 	font-weight: 500;
-    padding: 7px 25px !important;
+    padding: 7px 30px !important;
     transition: .4s;
     &:hover{
-        color: $green;
+        color: $blue;
+    }
+    &.active{
+        background-color: rgba(52, 130, 255, 0.6);
+        border-radius: 30px;
+        &:hover{
+            color: #fff;
+        }
     }
 }
 // header-section end
