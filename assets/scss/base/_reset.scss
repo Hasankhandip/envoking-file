@@ -1,0 +1,38 @@
+/* reset start */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 16px;
+  font-family: $josefin;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+}
+p {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+ul {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+span {
+  margin-bottom: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+a{
+  text-decoration: none;
+  transition: .4s;
+}
+/* reset end */

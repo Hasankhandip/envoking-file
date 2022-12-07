@@ -1,0 +1,23 @@
+.btn-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    padding: 12px 35px;
+    color: $green;
+    border: 1px solid $green;
+    border-radius: 10px;
+    transition: .4s;
+    &:hover{
+        background-color: $green;
+        .btn-1{
+            color: #fff;
+        }
+    }
+}
+.btn-1{
+    font-size: 18px;
+    color: $green;
+    font-weight: 500;
+    transition: .4s;
+}
