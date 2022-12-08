@@ -70,9 +70,14 @@
     }
 }
 .btn-wrapper-2{
+    background: transparent;
+    border: 1px solid #fff;
     i{
         color: #fff;
         font-size: 30px;
         margin-left: 20px;
+    }
+    &:hover{
+      border-color: $blue;
     }
 }

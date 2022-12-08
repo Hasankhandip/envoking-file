@@ -46,6 +46,9 @@ a {
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
+a:hover {
+  color: #3482ff;
+}
 
 /* reset end */
 .btn-wrapper {
@@ -143,10 +146,17 @@ a {
   margin-left: 20px;
 }
 
+.btn-wrapper-2 {
+  background: transparent;
+  border: 1px solid #fff;
+}
 .btn-wrapper-2 i {
   color: #fff;
   font-size: 30px;
   margin-left: 20px;
+}
+.btn-wrapper-2:hover {
+  border-color: #3482ff;
 }
 
 .header-section {
@@ -199,7 +209,7 @@ a {
 }
 
 .banner-section {
-  padding: 280px 0 350px 0;
+  padding: 280px 0 300px 0;
   position: relative;
   background-image: url(/assets/images/banner/6.jpg);
   background-position: center;
@@ -257,4 +267,87 @@ a {
   font-weight: 800;
   text-align: center;
   margin-bottom: 60px;
+}
+
+.plan-section {
+  position: relative;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 2;
+  margin-bottom: -45px;
+}
+
+.plan-row {
+  position: relative;
+  padding: 40px;
+  background-color: #3482ff;
+  border-radius: 5px;
+}
+
+.plan-area {
+  text-align: center;
+}
+
+.plan-title {
+  font-size: 32px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.plan-details {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.plan-icon {
+  display: inline-block;
+  padding: 22px;
+  border-radius: 50%;
+  background-color: rgb(80, 147, 255);
+  margin-bottom: 30px;
+}
+
+.plan-icon-img {
+  width: 60px;
+}
+
+.section-title-top {
+  font-size: 20px;
+  padding: 10px 30px;
+  display: inline-block;
+  background-color: rgba(52, 130, 255, 0.2);
+  color: #3482ff;
+  border-radius: 30px;
+  margin-bottom: 30px;
+}
+
+.section-title {
+  font-size: 52px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.project-item {
+  -webkit-box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.031372549);
+          box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.031372549);
+  margin-bottom: 30px;
+}
+
+.project-img {
+  width: 100%;
+  max-height: 480px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+.project-item-details {
+  padding: 30px 20px;
+}
+
+.project-item-title {
+  font-size: 24px;
+  color: #000;
 }/*# sourceMappingURL=style.css.map */

@@ -34,5 +34,8 @@ img {
 a{
   text-decoration: none;
   transition: .4s;
+  &:hover{
+    color: $blue;
+  }
 }
 /* reset end */
