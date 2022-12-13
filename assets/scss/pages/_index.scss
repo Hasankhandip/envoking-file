@@ -230,7 +230,7 @@ color: #555555;
 	display: flex;
     align-items: center;
     justify-content: center;
-	margin-top: 10px;
+	margin-top: 15px;
 	font-size: 18px;
     i{
         font-size: 25px;
@@ -264,3 +264,32 @@ color: #555555;
 	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.82), white);
 }
 // project-section end
+
+// blog-section start
+.blog-thumb{
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.blog-publish-date{
+    color: $blue;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.blog-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    a{
+        color: #000;
+        &:hover{
+            color: $blue;
+        }
+    }
+}
+.blog-details{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+// blog-section end

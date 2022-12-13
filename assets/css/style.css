@@ -596,7 +596,7 @@ a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 10px;
+  margin-top: 15px;
   font-size: 18px;
 }
 .section-details-link i {
@@ -637,4 +637,36 @@ a:hover {
   right: 0;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), color-stop(rgba(255, 255, 255, 0.82)), to(white));
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.82), white);
+}
+
+.blog-thumb {
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.blog-publish-date {
+  color: #3482ff;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.blog-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.blog-title a {
+  color: #000;
+}
+.blog-title a:hover {
+  color: #3482ff;
+}
+
+.blog-details {
+  margin-bottom: 10px;
+  font-size: 18px;
 }/*# sourceMappingURL=style.css.map */
