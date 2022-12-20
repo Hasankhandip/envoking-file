@@ -102,7 +102,7 @@
 // about-section start
 .about-video-section {
 	margin-top: 280px;
-    background-color: #f6f6f8;
+    background-color: #f4f8ff;
 }
 .overview-row {
 	padding: 80px 0;
@@ -267,6 +267,28 @@ color: #555555;
 	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.82), white);
 }
 // project-section end
+
+// carrer-section start
+.carrer-section{
+    background-color: #f4f8ff;
+}
+.carrer-img{
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px;
+}
+.carrer-img-area{
+    .col-lg-6{
+        &:last-child{
+            .carrer-img{
+                margin-top: 100px;
+            }
+        }
+    }
+}
+// carrer-section end
+
 
 // blog-section start
 .blog-thumb{
