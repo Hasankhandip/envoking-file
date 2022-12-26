@@ -1,0 +1,25 @@
+//  >=991px responsive start
+@media (max-width: 991spx) {
+.testimonial-section {
+    .col-md-12 {
+      text-align: center;
+      &.pe-5 {
+        padding-right: 0 !important;
+        margin-bottom: 40px;
+      }
+    }
+    .slider-btn-area {
+      display: none;
+    }
+  }
+  .testimonial-details {
+    text-align: center;
+  }
+  .testimonial-item {
+    padding-left: 0;
+    .testimonial-details {
+      text-align: left;
+    }
+  }
+}
+//  >=991px responsive end

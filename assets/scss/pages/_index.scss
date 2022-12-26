@@ -215,16 +215,16 @@ border-radius: 50%;
     background-color: rgba(52, 130, 255, 0.2);
     color: $blue;
     border-radius: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 .section-title{
     font-size: 52px;
     font-weight: 700;
-    margin-bottom: 20px;
 }
 .section-details{
 font-size: 20px;
 color: #555555;
+margin-top: 20px;
 }
 .section-details-2{
     color: #e5e5e5;
@@ -235,9 +235,11 @@ color: #555555;
     justify-content: center;
 	margin-top: 20px;
 	font-size: 18px;
+    color: $blue;
     i{
         font-size: 25px;
         margin-left: 10px;
+        color: $blue;
     }
 }
 .project-item {
