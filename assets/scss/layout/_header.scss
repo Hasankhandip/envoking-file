@@ -35,6 +35,9 @@
     &.active{
         background-color: rgba(52, 130, 255, 0.6);
         border-radius: 30px;
+        &:focus{
+            color: #fff;
+        }
         &:hover{
             color: #fff;
         }
