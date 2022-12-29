@@ -80,10 +80,12 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .page-item {
-  margin: 0 5px;
+  margin: 5px;
 }
 
 .page-link {
@@ -93,6 +95,9 @@
 .page-link.active {
   background-color: #3482ff;
   color: #fff;
+}
+.page-link.active:hover, .page-link.active:focus {
+  background-color: #3482ff;
 }
 .page-link:hover {
   background-color: #f4f8ff;
@@ -943,14 +948,24 @@ a:hover {
   margin-top: 100px;
 }
 
+.blog-area {
+  border: 1px solid #ebebeb;
+  padding: 10px;
+  border-radius: 10px;
+}
+
 .blog-thumb {
   height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
-  border-radius: 10px;
+  border-radius: 5px;
   margin-bottom: 20px;
+}
+
+.blog-details-wrap {
+  padding: 0 10px 10px 10px;
 }
 
 .blog-publish-date {

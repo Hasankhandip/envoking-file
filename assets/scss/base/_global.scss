@@ -45,11 +45,14 @@
     }
 }
 // titlethumb-section end
+
+// pagination start
 .pagination {
 	justify-content: center;
+    flex-wrap: wrap;
 }
 .page-item {
-	margin: 0 5px;
+	margin: 5px;
 }
 .page-link {
 	font-size: 20px;
@@ -57,6 +60,10 @@
     &.active{
         background-color: $blue;
         color: #fff;
+        &:hover,
+        &:focus{
+            background-color: $blue;
+        }
     }
     &:hover{
         background-color: #f4f8ff;
@@ -67,3 +74,4 @@
         background-color: #f4f8ff;
     }
 }
+// pagination end
