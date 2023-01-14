@@ -1,0 +1,161 @@
+// blog-details-section start
+.blog-details-title {
+	font-size: 36px;
+	margin-bottom: 20px;
+	font-weight: 700;
+}
+.blog-date{
+    font-size: 18px;
+    font-weight: 600;
+    color: $blue;
+}
+.social-title{
+    font-size: 18px;
+    margin-right: 10px;
+    font-weight: 600;
+    color: #555555;
+}
+.social-link {
+	color: #555555;
+    margin:0 5px ;
+}
+.blog-details-thumb{
+    margin: 30px 0;
+}
+.blog-details-text{
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555555;
+}
+.blog-comment-area{
+    margin-top: 50px;
+}
+.comment-area {
+	display: flex;
+}
+.user-img-area{
+    margin-right: 20px;
+}
+.user-comment {
+	width: 100%;
+}
+.blog-comment-title {
+	margin-bottom: 25px;
+}
+.user-comment-input {
+    padding: 15px;
+	width: 100%;
+    color: #555555;
+    border-radius: 5px;
+    border: 1px solid #555555;
+    margin-bottom: 15px;
+    &:focus{
+        outline:none ;
+        border-color: $blue;
+    }
+}
+.course-details-review-area .course-details-desrciption-title {
+    margin-bottom: 25px;
+  }
+  
+  .course-details-review-area .course-details-review-btn {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .course-details-review-details-title {
+	font-size: 24px;
+	font-weight: 600;
+    margin-bottom: 15px;
+}
+  
+  .course-details-review {
+    margin-top: 50px;
+  }
+  
+  .course-details-review-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e7e7ec;
+  }
+  
+  .course-details-review-item:first-child {
+    padding-top: 0;
+  }
+  
+  .course-details-review-item:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+  
+  .course-details-review-account {
+    width: 45px;
+    height: 45px;
+    font-weight: 600;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: $blue;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 20px;
+    overflow: hidden;
+  }
+  .course-details-review-details {
+    margin-top: 5px;
+    width: calc(100% - 8%);
+  }
+  .course-details-desrciption-text{
+    margin-bottom: 15px;
+  }
+  .course-details-review-react-title {
+    font-size: 13px;
+    color: #000;
+  }
+  
+  .course-details-review-react-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .course-details-review-react-btn {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #555555;
+    i {
+        font-size: 18px;
+        color: #555555;
+        transition: .4s;
+      }
+    &:hover{
+        background-color: $blue;
+        border-color: $blue;
+        i{
+            color: #fff;
+        }
+    }
+  }
+  
+  
+  .course-details-review-date {
+    font-size: 14px;
+    color: #000;
+  }
+  
+// blog-details-section end
