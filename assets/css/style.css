@@ -1214,7 +1214,7 @@ a:hover {
   font-size: 50px;
 }
 
-.blog-details-title {
+.Details-title {
   font-size: 36px;
   margin-bottom: 20px;
   font-weight: 700;
@@ -1333,7 +1333,7 @@ a:hover {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #3482ff;
+  background-color: #0F0D0D;
   color: #fff;
   border-radius: 50%;
   margin-right: 20px;
@@ -1351,7 +1351,7 @@ a:hover {
 
 .course-details-review-react-title {
   font-size: 13px;
-  color: #000;
+  color: #555555;
 }
 
 .course-details-review-react-area {
@@ -1400,6 +1400,281 @@ a:hover {
 .course-details-review-date {
   font-size: 14px;
   color: #000;
+}
+
+.product-details-thumb-area {
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #ebebeb;
+}
+
+.product-details-thumb {
+  height: 450px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top center;
+     object-position: top center;
+}
+
+.product-details-link-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 18px;
+}
+.product-details-link-area .btn-wrapper {
+  padding: 10px 15px;
+}
+.product-details-link-area .btn-text {
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.product-details-link-area .btn-text i {
+  margin-left: 0;
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+.project-details-tab .nav-link {
+  font-size: 16px;
+  border-radius: 0;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: #555555;
+  padding: 5px 20px !important;
+}
+.project-details-tab .nav-link:hover, .project-details-tab .nav-link:focus {
+  color: #555555;
+}
+.project-details-tab .nav-link.active {
+  border-bottom: 2px solid #3482ff;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.nav-tabs {
+  margin-bottom: 35px;
+}
+
+.product-details-info-area {
+  padding: 20px;
+  border: 1px solid #ebebeb;
+  border-radius: 10px;
+}
+.product-details-info-area .btn-wrapper {
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 10px 35px;
+  font-size: 16px;
+}
+.product-details-info-area .btn-wrapper::after, .product-details-info-area .btn-wrapper::before {
+  display: none;
+}
+.product-details-info-area h3 {
+  color: #000;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.product-details-info-area p, .product-details-info-area li {
+  font-size: 18px;
+  color: #555555;
+  margin-bottom: 5px;
+}
+.product-details-info-area li i {
+  color: #3482ff;
+}
+.product-details-info-area strong {
+  font-size: 18px;
+  color: #555555;
+}
+
+.ul-2 li {
+  list-style: inside;
+}
+
+.product-buy-widget {
+  padding: 20px;
+  border: 1px solid #ebebeb;
+  border-radius: 10px;
+}
+.product-buy-widget .btn-wrapper {
+  border-radius: 10px;
+  padding: 10px 35px;
+  font-size: 16px;
+}
+.product-buy-widget .btn-wrapper::after, .product-buy-widget .btn-wrapper::before {
+  display: none;
+}
+
+.product-price-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 20px;
+}
+
+.product-price-area {
+  color: #000;
+}
+
+.licence-info-list {
+  margin-bottom: 15px;
+}
+.licence-info-list li {
+  color: #555555;
+  font-size: 18px;
+}
+.licence-info-list li i {
+  font-size: 17px;
+  color: #3482ff;
+}
+
+.product-details-widget {
+  padding: 20px;
+  border: 1px solid #ebebeb;
+  border-radius: 10px;
+}
+
+.product-sale-info {
+  font-weight: 700;
+  color: #555555;
+}
+.product-sale-info i {
+  color: #3482ff;
+}
+
+.product-item-date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.product-details-widget li {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 20px;
+}
+.product-details-widget li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.product-details-widget .title {
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.product-details-widget p {
+  color: #555555;
+}
+
+.product-details-tags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.product-details-tags li {
+  border: none;
+  padding: 0 8px 8px 0;
+  margin: 0;
+}
+.product-details-tags li a {
+  font-size: 14px;
+  padding: 5px 10px;
+  background-color: #e5e5e5;
+  color: #555555;
+  border-radius: 5px;
+}
+.product-details-tags li a:hover {
+  background-color: #3482ff;
+  color: #fff;
+}
+
+.review-box {
+  border: 1px solid #ebebeb;
+  border-radius: 10px;
+}
+
+.review-rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 10px;
+}
+.review-rating li {
+  margin-right: 3px;
+}
+.review-rating li i {
+  color: goldenrod;
+  font-size: 25px;
+}
+
+.review-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.review-box-title-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+  background-color: #e9e9e9;
+}
+
+.review-box-title-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.review-box-title-left .review-rating {
+  margin-left: 0;
+  margin-right: 5px;
+}
+.review-box-title-left .review-rating li i {
+  font-size: 15px;
+}
+.review-box-title-left strong {
+  margin-left: 5px;
+}
+
+.review-box-details-area {
+  padding: 15px;
 }
 
 @media (max-width: 991spx) {
