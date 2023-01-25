@@ -50,7 +50,7 @@
                 <a class="nav-link" href="about.html">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="project.html">Projects</a>
+                <a class="nav-link" href="project.html">Projects</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="service.html">Services</a>
@@ -77,194 +77,179 @@
               <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="#">Home</a></li>
                 <li class="breadcrumb-item active" aria-current="page">
-                  Project
+                  Contact
                 </li>
               </ol>
             </nav>
-            <h1 class="titlethumb-title">Our Projects</h1>
+            <h1 class="titlethumb-title">Contact Us</h1>
           </div>
         </div>
       </div>
     </section>
     <!-- titlethumb-section end -->
 
-    <!-- project-section start -->
-    <section class="project-section section-padding">
+    <!-- contact-section start -->
+    <section class="contact-section section-padding">
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-lg-9 text-center">
             <div class="section-title-area">
-              <h2 class="section-title">HTML Templates & PHP Scripts</h2>
+              <h2 class="section-title">Get in Touch With us</h2>
               <p class="section-details">
-                Buy Premium PHP Scripts, Laravel Scripts, HTML Templates,
-                Graphics Elements and more. Find your desired scripts and start
-                your website today.
+                We’d love to hear from you and answer any questions you may
+                have. Please feel free to contact us, we will get back to you as
+                soon as possible.
               </p>
             </div>
           </div>
         </div>
-        <div class="row g-4">
+        <form class="contact-form" action="contact.html">
+          <div class="row gy-4">
+            <div class="col-lg-12">
+              <div class="contact-input-area">
+                <label>Your Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  class="form-control"
+                  placeholder="Enter your name"
+                />
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="contact-input-area">
+                <label>Your Phone Number</label>
+                <input
+                  type="tel"
+                  name="number"
+                  class="form-control"
+                  placeholder="Enter phone number"
+                />
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="contact-input-area">
+                <label>Your Email Address</label>
+                <input
+                  type="email"
+                  name="email"
+                  class="form-control"
+                  placeholder="Enter email address"
+                />
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="contact-input-area">
+                <label>Tell us what your enquiry is about</label>
+                <input
+                  type="text"
+                  name="subject"
+                  class="form-control"
+                  placeholder="Your subject"
+                />
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="contact-input-area">
+                <label>Message</label>
+                <textarea
+                  placeholder="Enter your message"
+                  class="form-control"
+                ></textarea>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="captcha">
+                <div class="spinner">
+                  <label>
+                    <input
+                      type="checkbox"
+                      onclick="$(this).attr('disabled','disabled');"
+                    />
+                    <span class="checkmark"><span>&nbsp;</span></span>
+                  </label>
+                </div>
+                <div class="text">I'm not a robot</div>
+                <div class="logo">
+                  <img src="assets/images/recaptcha.png" alt="" />
+                  <p>reCAPTCHA</p>
+                  <small>Privacy - Terms</small>
+                </div>
+              </div>
+            </div>
+            <button type="submit" class="btn-wrapper no-before-after">
+              <span class="btn-text">Submit Now</span>
+            </button>
+          </div>
+        </form>
+        <div class="row contact-details-area">
           <div class="col-lg-4">
-            <div class="project-item project-item-2">
-              <img
-                class="project-img"
-                src="assets/images/project/1.png"
-                alt=""
-              />
-              <div class="project-item-details">
-                <a href="project-details.html" class="project-item-title">
-                  Edward - Personal Portfolio HTML Template
-                </a>
+            <div class="service-iteam-area">
+              <div class="service-icon">
+                <img
+                  class="service-icon-img"
+                  src="assets/images/service/1.png"
+                  alt=""
+                />
+              </div>
+              <div class="service-item-text">
+                <h3 class="service-item-title">Location :</h3>
+                <p class="service-item-details">
+                  587 Ave to Central Park, New Your, US
+                </p>
               </div>
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="project-item project-item-2">
-              <img
-                class="project-img"
-                src="assets/images/project/2.png"
-                alt=""
-              />
-              <div class="project-item-details">
-                <a href="project-details.html" class="project-item-title">
-                  Codetreck - Creative Agency Figma Template
-                </a>
+            <div class="service-iteam-area">
+              <div class="service-icon">
+                <img
+                  class="service-icon-img"
+                  src="assets/images/service/2.png"
+                  alt=""
+                />
+              </div>
+              <div class="service-item-text">
+                <h3 class="service-item-title">Phone :</h3>
+                <p class="service-item-details">123 545 565 5465</p>
+                <p class="service-item-details">123 458 556 6686</p>
               </div>
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="project-item project-item-2">
-              <img
-                class="project-img"
-                src="assets/images/project/3.png"
-                alt=""
-              />
-              <div class="project-item-details">
-                <a href="project-details.html" class="project-item-title">
-                  Manifesto - NFT Marketplace React Template
-                </a>
+            <div class="service-iteam-area">
+              <div class="service-icon">
+                <img
+                  class="service-icon-img"
+                  src="assets/images/service/2.png"
+                  alt=""
+                />
               </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="project-item project-item-2">
-              <img
-                class="project-img"
-                src="assets/images/project/4.png"
-                alt=""
-              />
-              <div class="project-item-details">
-                <a href="project-details.html" class="project-item-title">
-                  Learning - Online Educational HTML Template
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="project-item project-item-2">
-              <img
-                class="project-img"
-                src="assets/images/project/5.jpg"
-                alt=""
-              />
-              <div class="project-item-details">
-                <a href="project-details.html" class="project-item-title">
-                  Gridblok - User Interface Creating Mobile Application
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="project-item project-item-2">
-              <img
-                class="project-img"
-                src="assets/images/project/6.jpg"
-                alt=""
-              />
-              <div class="project-item-details">
-                <a href="project-details.html" class="project-item-title">
-                  Moneymaker - Online Crypto Banking App
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="project-item project-item-2">
-              <img
-                class="project-img"
-                src="assets/images/project/7.jpg"
-                alt=""
-              />
-              <div class="project-item-details">
-                <a href="project-details.html" class="project-item-title">
-                  Nature - Cosmetics Product HTML Template
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="project-item project-item-2">
-              <img
-                class="project-img"
-                src="assets/images/project/8.jpg"
-                alt=""
-              />
-              <div class="project-item-details">
-                <a href="project-details.html" class="project-item-title">
-                  Hypeshare - Multimedia Files Sharing Apps
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="project-item project-item-2">
-              <img
-                class="project-img"
-                src="assets/images/project/9.jpg"
-                alt=""
-              />
-              <div class="project-item-details">
-                <a href="project-details.html" class="project-item-title">
-                  CubicApps - Advanced Apps Creation Technology
-                </a>
+              <div class="service-item-text">
+                <h3 class="service-item-title">Email :</h3>
+                <p class="service-item-details">info_envoking@gmail.com</p>
+                <p class="service-item-details">support_envoking@gmail.com</p>
               </div>
             </div>
           </div>
         </div>
-        <nav aria-label="Page navigation example">
-          <ul class="pagination mt-5">
-            <li class="page-item">
-              <a class="page-link" href="#" aria-label="Previous">
-                <span aria-hidden="true">&laquo;</span>
-              </a>
-            </li>
-            <li class="page-item">
-              <a class="page-link active" href="#">1</a>
-            </li>
-            <li class="page-item"><a class="page-link" href="#">2</a></li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item"><a class="page-link" href="#">4</a></li>
-            <li class="page-item"><a class="page-link" href="#">5</a></li>
-            <li class="page-item"><a class="page-link" href="#">6</a></li>
-            <li class="page-item"><a class="page-link" href="#">7</a></li>
-            <li class="page-item"><a class="page-link" href="#">8</a></li>
-            <li class="page-item"><a class="page-link" href="#">9</a></li>
-            <li class="page-item"><a class="page-link" href="#">10</a></li>
-            <li class="page-item"><a class="page-link" href="#">11</a></li>
-            <li class="page-item"><a class="page-link" href="#">12</a></li>
-            <li class="page-item">
-              <a class="page-link" href="#" aria-label="Next">
-                <span aria-hidden="true">&raquo;</span>
-              </a>
-            </li>
-          </ul>
-        </nav>
       </div>
     </section>
-    <!-- project-section end -->
+    <!-- contact-section end -->
+
+    <!-- map-section start -->
+    <div class="map-section">
+      <div class="container-fluid p-0">
+        <iframe
+          class="map-area"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193432.06445121637!2d-74.05912018700862!3d40.75375402366668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1674396202419!5m2!1sen!2sbd"
+        ></iframe>
+      </div>
+    </div>
+    <!-- map-section end -->
 
     <!-- footer-section start -->
-    <footer class="footer-section">
+    <footer class="footer-section mt-0">
       <div class="container">
         <div class="row newsletter-row justify-content-center section-padding">
           <div class="col-lg-8 d-flex flex-column align-items-center">

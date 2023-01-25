@@ -1,0 +1,50 @@
+// carrer-section start
+.vaccancie-item{
+	border: 1px solid #ebebeb;
+	padding:30px 20px;
+	border-radius: 10px;
+    transition: .4s;
+    &:hover{
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    }
+}
+.vaccansie-details{
+    color: #555555;
+    font-size: 15px;
+}
+.vaccancie-title {
+	font-size: 24px;
+	font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    a{
+        color: #000;
+        &:hover{
+            color: $blue;
+        }
+    }
+}
+.vaccancie-bottom-part {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.vaccancie-publish-date{
+    color: #555555;
+    svg{
+        margin-right: 3px;
+    }
+}
+.vaccancie-status {
+	color: #15d66b;
+	font-size: 14px;
+	padding: 3px 10px;
+	border: 1px solid #15d66b;
+	border-radius: 5px;
+    margin-bottom: 20px;
+    &.off{
+        color: #ff9f43;
+        border-color: #ff9f43;
+    }
+}
+// carrer-section end

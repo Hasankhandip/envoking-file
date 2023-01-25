@@ -54,6 +54,14 @@
       transition: .7s;
     }
   }
+  &.no-before-after{
+    &::after,&::before{
+      display: none;
+  }
+  border-radius: 10px;
+  padding: 13px 35px;
+  font-size: 16px;
+  }
 }
 .btn-text{
     display: flex;
