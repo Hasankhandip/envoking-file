@@ -998,6 +998,80 @@ a:hover {
   font-size: 18px;
 }
 
+.shape-wrapper-area {
+  position: relative;
+}
+
+.shape-image {
+  position: absolute;
+  left: -150px;
+  top: 50px;
+}
+.shape-image img {
+  width: 100px;
+}
+
+.shape-image-2 {
+  left: unset;
+  right: -150px;
+}
+.shape-image-2 img {
+  width: 120px;
+}
+
+.shape-image-3 {
+  top: 200px;
+}
+.shape-image-3 img {
+  width: 130px;
+}
+
+.shape-image-4 {
+  top: 300px;
+  left: unset;
+  right: -100px;
+}
+.shape-image-4 img {
+  width: 70px;
+}
+
+.shape-image-5 {
+  bottom: 100px;
+  top: unset;
+  z-index: 1;
+}
+
+.shape-image-7 {
+  top: 300px;
+}
+.shape-image-7 img {
+  width: 60px;
+}
+
+.shape-image-8 {
+  top: 50%;
+  left: unset;
+  right: -150px;
+}
+
+.shape-image-9 {
+  top: unset;
+  bottom: -55px;
+  left: -35px;
+}
+.shape-image-9 img {
+  width: 60px;
+}
+
+.shape-image-10 {
+  top: 140px;
+  left: unset;
+  right: -40px;
+}
+.shape-image-10 img {
+  width: 50px;
+}
+
 .team-item {
   -webkit-box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.031372549);
           box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.031372549);
