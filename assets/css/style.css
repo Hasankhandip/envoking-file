@@ -569,6 +569,12 @@ a:hover {
           justify-content: center;
 }
 
+.navbar {
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+}
+
 .navbar-menu-area {
   -webkit-box-pack: justify !important;
       -ms-flex-pack: justify !important;
@@ -2183,7 +2189,7 @@ input[type=checkbox]:checked + .checkmark > span:before {
   border-color: #ff9f43;
 }
 
-@media (max-width: 991spx) {
+@media (max-width: 991px) {
   .testimonial-section .col-md-12 {
     text-align: center;
   }
